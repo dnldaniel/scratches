@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include: foo
+    active: bar,foo
+    default: bar
+myproperty: 55
